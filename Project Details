@@ -1,0 +1,15 @@
+ReCell
+---------------
+ML-based solution to develop a dynamic pricing strategy for used and refurbished devices for startup 'ReCell'
+EDA is done. Outliers were treated. Encoded categorical features. Identified F1 as evaluation metric.
+Created new feature device category.
+Imputed the missing values in the data by the column medians grouped by release  and brand_name
+Checked outliers. Outliers looked like natural part of the population. They does not seem to be impossible values.
+Converted used_price and new_price to log form to deal with skewness in the data.
+Built linear regression model.
+Evaluated model performance on training and testing data.
+Linear Regression assumptions were tested.
+Dropped high p-value variables.
+Built model with selected features.
+Compared initial and final model.
+Recommendations were made.
